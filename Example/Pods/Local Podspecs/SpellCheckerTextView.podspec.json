@@ -1,0 +1,22 @@
+{
+  "name": "SpellCheckerTextView",
+  "version": "0.1.0",
+  "summary": "A short description of SpellCheckerTextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ibrahimhass/SpellCheckerTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ibrahimhass": "mdibrahimhassan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ibrahimhass/SpellCheckerTextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SpellCheckerTextView/Classes/**/*"
+}

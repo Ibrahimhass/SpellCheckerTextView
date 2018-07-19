@@ -1,0 +1,16 @@
+PODS:
+  - SpellCheckerTextView (0.1.0)
+
+DEPENDENCIES:
+  - SpellCheckerTextView (from `../`)
+
+EXTERNAL SOURCES:
+  SpellCheckerTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpellCheckerTextView: 90f01f7b5be186e5dd321215d750791afbaac8e0
+
+PODFILE CHECKSUM: 6fba38a45798fb8d5bb4fc06fe24e928dafb4f42
+
+COCOAPODS: 1.5.3

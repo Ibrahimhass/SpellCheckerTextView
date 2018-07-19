@@ -1,0 +1,6 @@
+framework module Pods_SpellCheckerTextView_Tests {
+  umbrella header "Pods-SpellCheckerTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

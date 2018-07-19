@@ -1,0 +1,6 @@
+framework module SpellCheckerTextView {
+  umbrella header "SpellCheckerTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
