@@ -14,7 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C6567789FF572A7FCA84C255 /* Pods_SpellCheckerTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3356EBF1BD66D46F7837F5E4 /* Pods_SpellCheckerTextView_Example.framework */; };
+		EDCA36D4210124E100A12BB0 /* SpellCheckerTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA36D3210124E100A12BB0 /* SpellCheckerTextView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,8 @@
 		B7B2F1BBDE74B464487BD7C8 /* Pods-SpellCheckerTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpellCheckerTextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpellCheckerTextView_Tests/Pods-SpellCheckerTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C28FC3540003E81C84EBC5CF /* SpellCheckerTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpellCheckerTextView.podspec; path = ../SpellCheckerTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2E16C049319505948AB1F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDCA36D1210124D500A12BB0 /* SpellCheckerTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SpellCheckerTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCA36D3210124E100A12BB0 /* SpellCheckerTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SpellCheckerTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9793C1FA78A2B11A76C09E4 /* Pods-SpellCheckerTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpellCheckerTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpellCheckerTextView_Example/Pods-SpellCheckerTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6567789FF572A7FCA84C255 /* Pods_SpellCheckerTextView_Example.framework in Frameworks */,
+				EDCA36D4210124E100A12BB0 /* SpellCheckerTextView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +74,8 @@
 		268774A6E0B0F2EA3D022177 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDCA36D3210124E100A12BB0 /* SpellCheckerTextView.framework */,
+				EDCA36D1210124D500A12BB0 /* SpellCheckerTextView.framework */,
 				3356EBF1BD66D46F7837F5E4 /* Pods_SpellCheckerTextView_Example.framework */,
 				33F7D73FA8A2EEF2050660AC /* Pods_SpellCheckerTextView_Tests.framework */,
 			);
@@ -213,6 +217,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -410,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -469,12 +474,15 @@
 			baseConfigurationReference = 5225E1F4E11B1E384AF13837 /* Pods-SpellCheckerTextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpellCheckerTextView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -485,12 +493,15 @@
 			baseConfigurationReference = F9793C1FA78A2B11A76C09E4 /* Pods-SpellCheckerTextView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpellCheckerTextView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

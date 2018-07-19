@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		242CC2D0DB0E6DC465B30483D86EF57B /* Pods-SpellCheckerTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC454050F6D9AE9A701741D44B5BFA1E /* Pods-SpellCheckerTextView_Tests-dummy.m */; };
 		2900111862FC3B084A8835ECB60F5EE4 /* Pods-SpellCheckerTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44356CE48EC09392E4CC8A74DE75CEAD /* Pods-SpellCheckerTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB9A89BF5E8772A2719F2B548ABA8BA /* SpellCheckerTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C5A6C2A16BA2EE9F9CF7F9B36107F /* SpellCheckerTextView-dummy.m */; };
-		82095D44DAEF23AA4D0ADD5617CE57C4 /* SpellCheckerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87893EE59A3E5551296086D406AA9D8E /* SpellCheckerTextView.swift */; };
-		8270B463A2B4B524BB6AF1D19DB1EEAF /* SpellCheckerTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683D33FB031B17D059556E05AE4AC021 /* SpellCheckerTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349D12D436D6E702418D16BD266B503E /* SpellCheckerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74564DA6FEB5BB30998F4AD142422208 /* SpellCheckerTextView.swift */; };
+		8270B463A2B4B524BB6AF1D19DB1EEAF /* SpellCheckerTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 793E52C0EAA47C7295C005843614F4F3 /* SpellCheckerTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BE161A80A353C1316ECD45333F78799 /* Pods-SpellCheckerTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6396496F7BE81F7CAB2124796938C6 /* Pods-SpellCheckerTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4E3FA1F8DCCF0E10F046F67E6070C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B7481078630563E7560A40DF53B77C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B7481078630563E7560A40DF53B77C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		BB4E0AAA10CDB7EB5369381E61013DEB /* Pods-SpellCheckerTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DC4FDE86D6BCD86B39B19AD7CB04FA /* Pods-SpellCheckerTextView_Example-dummy.m */; };
-		BCBD3B47A7A684FB119ADD5A463099D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BCBD3B47A7A684FB119ADD5A463099D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		BDB70903EA53BB8538C72FCA1E8C2755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		D6557ACF96436F68A2E534F9EE8BB9A1 /* SpellCheckerTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C603EB8A3FB93CE73A125AD377B545F4 /* SpellCheckerTextView-dummy.m */; };
+		DE0A1CA759F6AA9D6A1CD8B509706738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,46 +41,48 @@
 		12F8BF788CF7D81CAD68BFCE7935506D /* Pods-SpellCheckerTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpellCheckerTextView_Example.modulemap"; sourceTree = "<group>"; };
 		17BEA186EC16F847FAB78FBC5CD3A7F6 /* Pods-SpellCheckerTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpellCheckerTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1CE73F1AA7AC03E0DEF47F2790639735 /* Pods-SpellCheckerTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpellCheckerTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3238461919E8B6ADEC8B9DD123D6F471 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		374803FD37879DE07251A2E940A51CEC /* Pods-SpellCheckerTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpellCheckerTextView_Tests.modulemap"; sourceTree = "<group>"; };
 		3BCCDB1A06F2DB3C9DF6528B91337C61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407AE2562BD3BC80CAFFFCD6598D5DFC /* SpellCheckerTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpellCheckerTextView.xcconfig; sourceTree = "<group>"; };
 		44356CE48EC09392E4CC8A74DE75CEAD /* Pods-SpellCheckerTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpellCheckerTextView_Example-umbrella.h"; sourceTree = "<group>"; };
-		49DBB7854E491DA4C6549B5B460CE66F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DD2CD6C3A95F2807960280871FC0721 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4EC2BC561188FC095B5F8A086F5521B3 /* Pods-SpellCheckerTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpellCheckerTextView_Tests-resources.sh"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C2DA9BFE28B5E9A90908ED4C43D235F /* SpellCheckerTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpellCheckerTextView.modulemap; sourceTree = "<group>"; };
-		649F14BCBBBCDF57C6F7097CBDB65BF4 /* SpellCheckerTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpellCheckerTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		683D33FB031B17D059556E05AE4AC021 /* SpellCheckerTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpellCheckerTextView-umbrella.h"; sourceTree = "<group>"; };
+		57A84EFF6BD60908AB1C07173A5346E3 /* SpellCheckerTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpellCheckerTextView.modulemap; sourceTree = "<group>"; };
+		62FC5AD40B5B883341CC5A7F8D81F9BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		649F14BCBBBCDF57C6F7097CBDB65BF4 /* SpellCheckerTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpellCheckerTextView.framework; path = SpellCheckerTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6396496F7BE81F7CAB2124796938C6 /* Pods-SpellCheckerTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpellCheckerTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		74564DA6FEB5BB30998F4AD142422208 /* SpellCheckerTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpellCheckerTextView.swift; path = SpellCheckerTextView/Classes/SpellCheckerTextView.swift; sourceTree = "<group>"; };
+		793E52C0EAA47C7295C005843614F4F3 /* SpellCheckerTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpellCheckerTextView-umbrella.h"; sourceTree = "<group>"; };
 		79D9151DCEBA6C0F5B2D39DD1521C4BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DC4FDE86D6BCD86B39B19AD7CB04FA /* Pods-SpellCheckerTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpellCheckerTextView_Example-dummy.m"; sourceTree = "<group>"; };
-		87893EE59A3E5551296086D406AA9D8E /* SpellCheckerTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpellCheckerTextView.swift; path = SpellCheckerTextView/Classes/SpellCheckerTextView.swift; sourceTree = "<group>"; };
-		8E163056D7038DF5FE0DF3BD2727C1C8 /* Pods_SpellCheckerTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpellCheckerTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8792221C57B336315A7D76F7E6DD0314 /* SpellCheckerTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SpellCheckerTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E163056D7038DF5FE0DF3BD2727C1C8 /* Pods_SpellCheckerTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpellCheckerTextView_Tests.framework; path = "Pods-SpellCheckerTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9326A39ACA45BB3BA1F3AB2AB5E9F068 /* Pods-SpellCheckerTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpellCheckerTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A604F2202560E06171C1D4209B263E3 /* SpellCheckerTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpellCheckerTextView-prefix.pch"; sourceTree = "<group>"; };
-		A47A4D1D87F399EDEE0CC111BD4F1EC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DD8833F68C324BC4E47D6FED49FE35 /* Pods-SpellCheckerTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpellCheckerTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A754E49707B6250B8E239229A92F1550 /* SpellCheckerTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpellCheckerTextView.xcconfig; sourceTree = "<group>"; };
 		AC454050F6D9AE9A701741D44B5BFA1E /* Pods-SpellCheckerTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpellCheckerTextView_Tests-dummy.m"; sourceTree = "<group>"; };
 		AE35827C673AFB875284F1F6AFEC77A0 /* Pods-SpellCheckerTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpellCheckerTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B88C5A6C2A16BA2EE9F9CF7F9B36107F /* SpellCheckerTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpellCheckerTextView-dummy.m"; sourceTree = "<group>"; };
 		BA0C13DCE8C9CE34C8BDBAD47BC969EF /* Pods-SpellCheckerTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpellCheckerTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C12BBA08B541819AA6822093128A418E /* SpellCheckerTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpellCheckerTextView-prefix.pch"; sourceTree = "<group>"; };
+		C603EB8A3FB93CE73A125AD377B545F4 /* SpellCheckerTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpellCheckerTextView-dummy.m"; sourceTree = "<group>"; };
 		DC30CED0BD275FBDDAD3FCC352C5C6B8 /* Pods-SpellCheckerTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpellCheckerTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5455EB8519B70CEFCF63D41F31519E3 /* Pods_SpellCheckerTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpellCheckerTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5455EB8519B70CEFCF63D41F31519E3 /* Pods_SpellCheckerTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpellCheckerTextView_Example.framework; path = "Pods-SpellCheckerTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5A221E2094DE9B858E7EFC1A1D418 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDAC834F014C57FB8D76BC5B7A2CD7FE /* Pods-SpellCheckerTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpellCheckerTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F4049713BED94C3C81C765AFD94B92FD /* Pods-SpellCheckerTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpellCheckerTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FAA48621225ABA73057316B3E685C38C /* Pods-SpellCheckerTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpellCheckerTextView_Example-resources.sh"; sourceTree = "<group>"; };
 		FABB1CD4F5AACDE96BC4D2BC31A34E34 /* Pods-SpellCheckerTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpellCheckerTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB111E5EA1B8B8E35EC8C7895A627663 /* SpellCheckerTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SpellCheckerTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B27165A70E45F4324287793D3E568BA /* Frameworks */ = {
+		63489D4B3851EBA1491124C3F890E3F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E3FA1F8DCCF0E10F046F67E6070C65 /* Foundation.framework in Frameworks */,
+				DE0A1CA759F6AA9D6A1CD8B509706738 /* Foundation.framework in Frameworks */,
+				BDB70903EA53BB8538C72FCA1E8C2755 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,33 +105,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		214ED2DE62FF7A72938E4DB8376430C4 /* SpellCheckerTextView */ = {
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				87893EE59A3E5551296086D406AA9D8E /* SpellCheckerTextView.swift */,
-				535E3A6C2ED0C57DC78C88335E06F9B6 /* Pod */,
-				7E4060892C4D418CC19933339737E466 /* Support Files */,
-			);
-			name = SpellCheckerTextView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		535E3A6C2ED0C57DC78C88335E06F9B6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4DD2CD6C3A95F2807960280871FC0721 /* LICENSE */,
-				49DBB7854E491DA4C6549B5B460CE66F /* README.md */,
-				FB111E5EA1B8B8E35EC8C7895A627663 /* SpellCheckerTextView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -136,30 +127,26 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A0436F2F84F2F28717BE9FCBB719188E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				C137937FCEC5E83F5CC881A5E99A2CE9 /* Products */,
 				A6FF54702324B1A6A06F212CC57DABB5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E4060892C4D418CC19933339737E466 /* Support Files */ = {
+		8911356910B1261439DABCEB2F463ABE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A47A4D1D87F399EDEE0CC111BD4F1EC3 /* Info.plist */,
-				5C2DA9BFE28B5E9A90908ED4C43D235F /* SpellCheckerTextView.modulemap */,
-				A754E49707B6250B8E239229A92F1550 /* SpellCheckerTextView.xcconfig */,
-				B88C5A6C2A16BA2EE9F9CF7F9B36107F /* SpellCheckerTextView-dummy.m */,
-				9A604F2202560E06171C1D4209B263E3 /* SpellCheckerTextView-prefix.pch */,
-				683D33FB031B17D059556E05AE4AC021 /* SpellCheckerTextView-umbrella.h */,
+				3238461919E8B6ADEC8B9DD123D6F471 /* LICENSE */,
+				62FC5AD40B5B883341CC5A7F8D81F9BB /* README.md */,
+				8792221C57B336315A7D76F7E6DD0314 /* SpellCheckerTextView.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SpellCheckerTextView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A0436F2F84F2F28717BE9FCBB719188E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				214ED2DE62FF7A72938E4DB8376430C4 /* SpellCheckerTextView */,
+				BA106996A391A03052EE8DCA3FAF4EC6 /* SpellCheckerTextView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -191,12 +178,15 @@
 			path = "Target Support Files/Pods-SpellCheckerTextView_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BA106996A391A03052EE8DCA3FAF4EC6 /* SpellCheckerTextView */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				74564DA6FEB5BB30998F4AD142422208 /* SpellCheckerTextView.swift */,
+				8911356910B1261439DABCEB2F463ABE /* Pod */,
+				CB58B28C3E08536354AE60A2B20DF951 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SpellCheckerTextView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C137937FCEC5E83F5CC881A5E99A2CE9 /* Products */ = {
@@ -207,6 +197,20 @@
 				649F14BCBBBCDF57C6F7097CBDB65BF4 /* SpellCheckerTextView.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CB58B28C3E08536354AE60A2B20DF951 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A221E2094DE9B858E7EFC1A1D418 /* Info.plist */,
+				57A84EFF6BD60908AB1C07173A5346E3 /* SpellCheckerTextView.modulemap */,
+				407AE2562BD3BC80CAFFFCD6598D5DFC /* SpellCheckerTextView.xcconfig */,
+				C603EB8A3FB93CE73A125AD377B545F4 /* SpellCheckerTextView-dummy.m */,
+				C12BBA08B541819AA6822093128A418E /* SpellCheckerTextView-prefix.pch */,
+				793E52C0EAA47C7295C005843614F4F3 /* SpellCheckerTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpellCheckerTextView";
 			sourceTree = "<group>";
 		};
 		DBB2476E44B428DA311B90F99B9855E6 /* Pods-SpellCheckerTextView_Tests */ = {
@@ -297,8 +301,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42E0132CA5095130D2C1A77DFB6F22A1 /* Build configuration list for PBXNativeTarget "SpellCheckerTextView" */;
 			buildPhases = (
-				E0A54FBD9CB9DC112AD35A46B6BFCA6C /* Sources */,
-				4B27165A70E45F4324287793D3E568BA /* Frameworks */,
+				7DBBE5D9675F7098C869E9699FC6E06D /* Sources */,
+				63489D4B3851EBA1491124C3F890E3F4 /* Frameworks */,
 				9A76E836526832F8CBE53E398710148D /* Headers */,
 			);
 			buildRules = (
@@ -347,20 +351,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DBBE5D9675F7098C869E9699FC6E06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6557ACF96436F68A2E534F9EE8BB9A1 /* SpellCheckerTextView-dummy.m in Sources */,
+				349D12D436D6E702418D16BD266B503E /* SpellCheckerTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8E46931ABEAB3616A48987020C9C6B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				242CC2D0DB0E6DC465B30483D86EF57B /* Pods-SpellCheckerTextView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0A54FBD9CB9DC112AD35A46B6BFCA6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82095D44DAEF23AA4D0ADD5617CE57C4 /* SpellCheckerTextView.swift in Sources */,
-				4AB9A89BF5E8772A2719F2B548ABA8BA /* SpellCheckerTextView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +386,167 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		04B3C6DEA4DFA54C9E2B272D02880B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407AE2562BD3BC80CAFFFCD6598D5DFC /* SpellCheckerTextView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpellCheckerTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView.modulemap";
+				PRODUCT_MODULE_NAME = SpellCheckerTextView;
+				PRODUCT_NAME = SpellCheckerTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2304D0F956F409DE262C19B3293581B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABB1CD4F5AACDE96BC4D2BC31A34E34 /* Pods-SpellCheckerTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Pods-SpellCheckerTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F83ECD54F7F2EA14E7959262E69A89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE73F1AA7AC03E0DEF47F2790639735 /* Pods-SpellCheckerTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Pods-SpellCheckerTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,11 +609,12 @@
 			};
 			name = Debug;
 		};
-		9763B0407C926EA9E8B29EB1DE2A4BF8 /* Debug */ = {
+		ABD6865D0E00577044A51B44E0409CF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17BEA186EC16F847FAB78FBC5CD3A7F6 /* Pods-SpellCheckerTextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,7 +626,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Example/Pods-SpellCheckerTextView_Example.modulemap";
@@ -480,69 +645,11 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		BF467C16230FA46912D2ECABD0179586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407AE2562BD3BC80CAFFFCD6598D5DFC /* SpellCheckerTextView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BC303383F481ACBD06DF006E0939F706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE73F1AA7AC03E0DEF47F2790639735 /* Pods-SpellCheckerTextView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -552,19 +659,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpellCheckerTextView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Pods-SpellCheckerTextView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView.modulemap";
+				PRODUCT_MODULE_NAME = SpellCheckerTextView;
+				PRODUCT_NAME = SpellCheckerTextView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -572,11 +679,12 @@
 			};
 			name = Release;
 		};
-		C8E591E6E18FEBE509D6A69A855A6D79 /* Release */ = {
+		EAFC838CEAD1224232693D4EB8A79EAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4DD8833F68C324BC4E47D6FED49FE35 /* Pods-SpellCheckerTextView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -588,7 +696,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Example/Pods-SpellCheckerTextView_Example.modulemap";
@@ -607,112 +715,14 @@
 			};
 			name = Release;
 		};
-		CE6650FBBAFB33CE801024F87E447A11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A754E49707B6250B8E239229A92F1550 /* SpellCheckerTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SpellCheckerTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView.modulemap";
-				PRODUCT_MODULE_NAME = SpellCheckerTextView;
-				PRODUCT_NAME = SpellCheckerTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E996CF588DD98FB7A7BF092ABFB759D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A754E49707B6250B8E239229A92F1550 /* SpellCheckerTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SpellCheckerTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SpellCheckerTextView/SpellCheckerTextView.modulemap";
-				PRODUCT_MODULE_NAME = SpellCheckerTextView;
-				PRODUCT_NAME = SpellCheckerTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EE6D587390C12FF5B1D0397F36212C13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FABB1CD4F5AACDE96BC4D2BC31A34E34 /* Pods-SpellCheckerTextView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpellCheckerTextView_Tests/Pods-SpellCheckerTextView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +730,8 @@
 		42E0132CA5095130D2C1A77DFB6F22A1 /* Build configuration list for PBXNativeTarget "SpellCheckerTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E996CF588DD98FB7A7BF092ABFB759D4 /* Debug */,
-				CE6650FBBAFB33CE801024F87E447A11 /* Release */,
+				04B3C6DEA4DFA54C9E2B272D02880B34 /* Debug */,
+				BF467C16230FA46912D2ECABD0179586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,8 +739,8 @@
 		66EDFB180CB547F012A99595F37C595F /* Build configuration list for PBXNativeTarget "Pods-SpellCheckerTextView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9763B0407C926EA9E8B29EB1DE2A4BF8 /* Debug */,
-				C8E591E6E18FEBE509D6A69A855A6D79 /* Release */,
+				ABD6865D0E00577044A51B44E0409CF7 /* Debug */,
+				EAFC838CEAD1224232693D4EB8A79EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,8 +748,8 @@
 		7178D0FFBFC8C8DFD21310A9AD830AF9 /* Build configuration list for PBXNativeTarget "Pods-SpellCheckerTextView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE6D587390C12FF5B1D0397F36212C13 /* Debug */,
-				BC303383F481ACBD06DF006E0939F706 /* Release */,
+				2304D0F956F409DE262C19B3293581B8 /* Debug */,
+				3F83ECD54F7F2EA14E7959262E69A89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

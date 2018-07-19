@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SpellCheckerTextView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var spellCheckerView: SpellCheckerTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        spellCheckerView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +24,10 @@ class ViewController: UIViewController {
     }
 
 }
-
+extension ViewController : SpellCheckerTextViewDataSource {
+    
+    func textHightlightingColor() -> UIColor {
+        return .green
+    }
+    
+}

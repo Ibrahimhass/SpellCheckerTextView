@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SpellCheckerTextView: 90f01f7b5be186e5dd321215d750791afbaac8e0
+  SpellCheckerTextView: fe32642bbe9568c5fab1aa66abd86fd3e89d7e96
 
 PODFILE CHECKSUM: 6fba38a45798fb8d5bb4fc06fe24e928dafb4f42
 
