@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpellCheckerTextView_Example' do
+  pod 'SpellCheckerTextView', :path => '../'
+
+  target 'SpellCheckerTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
